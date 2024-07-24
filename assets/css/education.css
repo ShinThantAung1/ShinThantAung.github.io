@@ -1,0 +1,35 @@
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 20px;
+	width: 300px;
+	text-align: center;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.card p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+
+
+hr {
+	width: 100%;
+	border: none;
+	border-top: 1px solid #ddd;
+	margin: 20px 0;
+}
